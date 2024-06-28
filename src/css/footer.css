@@ -1,7 +1,6 @@
 .footer {
-  padding: 0 20px;
+  padding: 0 20px 20px;
 }
-
 .footer-container {
   max-width: 375px;
   margin: 0 auto;
@@ -162,7 +161,9 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 0 32px;
+    .footer {
+      padding: 0 32px 32px;
+      };
   }
 
   .footer-container {
@@ -243,8 +244,7 @@
     left: 50%;
     transform: translate(-50%);
   }
-
-  .footer-nav-list {
+    .footer-nav-list {
     gap: 19px;
     width: 400px;
   }
